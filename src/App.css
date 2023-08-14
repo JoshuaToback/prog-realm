@@ -43,3 +43,69 @@
   color: #f39c12;
   cursor: pointer;
 }
+
+
+/* Hero Styles */
+
+.hero-container {
+
+}
+
+.site-title {
+  padding: 20px;
+}
+/* Standings */
+
+.standings-container {
+  color: black;
+  width: 33%;
+  height: fit-content;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.standings-wrapper {
+  overflow-x: auto;
+}
+
+.standings-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.standings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.standings-table th,
+.standings-table td {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.standings-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.standings-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.standings-table tr:hover {
+  background-color: #e0e0e0;
+}
+
+
+/* News */
+.news-date {
+  color: #777777;
+  margin-top: 5px;
+}
