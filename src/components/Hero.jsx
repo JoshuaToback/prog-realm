@@ -3,7 +3,7 @@ import Standings from "./Standings";
 import Latest from "./Latest";
 import News from "./News";
 
-import logo from "../assets/TheProgressionRealmLogo.png"
+import logo from "../assets/TheProgressionRealmLogo.png";
 function Hero() {
   return (
     <div className="hero-container">
@@ -13,10 +13,15 @@ function Hero() {
         <p>Streaming Every Sunday @ 9:30pm EST!</p>
       </center>
       <div className="row">
-        <Standings />
-        <Latest />
-        <News />
-        
+        <div className="column">
+          <Standings />
+        </div>
+        <div className="column">
+          <Latest />
+        </div>
+        <div className="column">
+          <News />
+        </div>
       </div>
     </div>
   );

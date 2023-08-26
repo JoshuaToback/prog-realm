@@ -48,7 +48,21 @@
 /* Hero Styles */
 
 .hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
 }
 
 .site-title {
@@ -58,12 +72,10 @@
 
 .standings-container {
   color: black;
-  width: 33%;
+  width: 100%;
   height: fit-content;
   margin: 0 auto;
   background-color: #f5f5f5;
-  padding: 15px;
-  margin: 15px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -103,6 +115,41 @@
   background-color: #e0e0e0;
 }
 
+/* Video */
+
+.video-wrapper {
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #009dff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive video */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.latestVideo {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.video-title {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.video p {
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
 
 /* News */
 .news-date {
